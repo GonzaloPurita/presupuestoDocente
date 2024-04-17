@@ -21,7 +21,6 @@ horasTrabajadas horas
                     | horas >= 25 && horas < 35 = 3
                     | horas >= 35 && horas < 45 = 4
                     | horas >= 45 && horas <= 50 = 5
-                    | otherwise = 0
 
 canastaBasica :: Float -> Float
 canastaBasica integrantes 
